@@ -33,7 +33,7 @@ export default function Home() {
         </div>
 
         <button onClick={() => takePhoto()}>Take photo</button>
-        {photoRef && <canvas ref={photoRef}></canvas>}
+        {photoRef && <canvas className="w-[50vw] h-[50vh]" ref={photoRef}></canvas>}
       </div>
     </>
   );
