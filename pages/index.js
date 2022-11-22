@@ -29,7 +29,7 @@ export default function Home() {
     <>
       <div className="min-h-screen flex flex-col items-center gap-2 mt-10">
         <div className="">
-          <video className="w-[50vw] h-[50vh]" ref={videoRef}></video>
+          <video className="w-[50vw] h-[40vh]" ref={videoRef}></video>
         </div>
 
         <button onClick={() => takePhoto()}>Take photo</button>
